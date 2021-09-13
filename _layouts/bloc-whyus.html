@@ -1,0 +1,23 @@
+<section id="why-us" class="why-us section-bg">
+  <div class="container-fluid" data-aos="fade-up">
+
+    <header class="section-header">
+      <h3>{{ page.title }}</h3>
+    </header>
+
+    <div class="row">
+
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+        <div class="why-us-img">
+          <img src="{{ site.url }}{{ site.baseurl }}{{ page.image }}" alt="" class="img-fluid">
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="why-us-content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

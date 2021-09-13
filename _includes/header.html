@@ -1,0 +1,12 @@
+<nav class="main-nav d-none d-lg-block">
+  <ul>
+    {% for item in site.data.menu %}
+      <li>
+      {% if item.url %}
+        <a class="nav-link" href="{{ item.url }}">{{ t[lang].menu[item.id] }}</a>
+      {% else %}
+        <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}{{ t_url_prefix }}{{ item.path }}">{{ t[lang].menu[item.id] }}</a>{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

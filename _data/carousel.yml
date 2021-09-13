@@ -1,0 +1,8 @@
+- name: partenaire 1
+  img_name: client-1.jpg
+- name: partenaire 2
+  img_name: client-2.jpg
+- name: partenaire 3
+  img_name: client-3.jpg
+- name: partenaire 4
+  img_name: client-4.jpg
