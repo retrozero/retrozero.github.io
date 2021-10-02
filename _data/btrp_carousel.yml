@@ -1,0 +1,11 @@
+- statut: active
+  img_name: /files/img/innovales.jpg
+  alt: texte alternatif
+  h5: "h5 en titre 5"
+  p: "paragraphe de texte. Sur plusieurs lignes si nécessaire"
+
+- statut:
+  img_name: /files/img/evbmw.jpg
+  alt: texte alternatif 2
+  h5: "h5 en titre 5 2"
+  p: "2 paragraphe de texte. Sur plusieurs lignes si nécessaire"

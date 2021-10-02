@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: retrozero
+title: RetroZero
 email: info@retrozero.fr
 description: >- # this means to ignore newlines until "baseurl:"
-  Retrofit
+  Retrofit - Recycle - Re-use. RetroZero convertir des véhicules aux moteurs essences et diesels en véhicules 100% électrique, en réutilisant des composants de véhicules électriques.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: retrozero

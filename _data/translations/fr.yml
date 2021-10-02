@@ -3,6 +3,8 @@ lang:
   en: EN
 
 menu:
-  home: accueil
-  article: article
-  linkout: tableau de bord covid
+  what: Qu'est-ce que le retrofit ?
+  solution: Notre solution unique
+  faq: Questions fréquentes
+  contact: Contact
+

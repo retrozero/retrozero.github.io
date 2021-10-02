@@ -59,7 +59,7 @@
 
   <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center">
-      <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      <a href="{{ site.url }}{{ site.baseurl }}/index.html" class="logo mr-auto"><img src="{{ site.url }}{{ site.baseurl }}/assets/img/logo.png" alt="" class="img-fluid"></a>
 
       {% include header.html %}
     </div>
@@ -92,7 +92,6 @@
 
 	<!-- Custom JS File -->
 	<script src="{{ site.url }}{{ site.baseurl }}/assets/js/main.js"></script>
-  <!-- <script src="{{ site.url }}{{ site.baseurl }}/assets/js/jek_main.js"></script> -->
 
   <!-- JS -->
   {% if site.google_analytics %}{% include google/analytics.html %}{% endif %}

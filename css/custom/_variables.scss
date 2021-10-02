@@ -15,7 +15,7 @@ body {
   }
   
   a:hover, a:active, a:focus {
-    color: #007C2F;
+    color: #1ba60e;
     outline: none;
     text-decoration: none;
   }
@@ -374,7 +374,7 @@ body {
   
   .mobile-nav-toggle i {
     margin: 18px 18px 0 0;
-    color: #007c2f;
+    color: #1ba60e;
   }
   
   .mobile-nav-overly {
@@ -404,59 +404,60 @@ body {
   /*--------------------------------------------------------------
   # Hero Section
   --------------------------------------------------------------*/
-  #hero {
+  .hero {
     width: 100%;
     height: 100vh;
     position: relative;
-    background: #f5fdf7 url("../files/img/intro-bg.jpg") center top no-repeat;
+    background: #f5fdf7 url("../files/img/hero-bg.jpg") center top no-repeat;
     background-size: cover;
   }
   
   @media (max-width: 767px) {
-    #hero {
+    .hero {
       height: auto;
       padding: 100px 0 60px 0;
     }
-    #hero .container {
+    .hero .container {
       height: auto !important;
     }
-    #hero .intro-img {
+    .hero .intro-img {
       width: 80%;
     }
   }
   
   @media (min-width: 992px) {
-    #hero .intro-info {
-      padding-top: 80px;
+    .hero .intro-info {
+      padding-top: 40px;
+      text-align: right;
     }
   }
   
   @media (max-width: 767px) {
-    #hero .intro-info {
+    .hero .intro-info {
       text-align: center;
       padding-top: 40px;
     }
   }
   
-  #hero .intro-info h2 {
+  .hero .intro-info h2 {
     color: #333;
     margin-bottom: 40px;
     font-size: 48px;
     font-weight: 700;
   }
   
-  #hero .intro-info h2 span {
+  .hero .intro-info h2 span {
     color: $primary;
   }
   
   @media (max-width: 767px) {
-    #hero .intro-info h2 {
+    .hero .intro-info h2 {
       font-size: 34px;
       margin-bottom: 30px;
     }
   }
   
-  #hero .intro-info .btn-get-started, #hero .intro-info .btn-services {
+  .hero .intro-info .btn-get-started, .hero .intro-info .btn-services {
     font-family: "Exo 2", sans-serif;
     font-size: 13px;
     font-weight: 600;
@@ -471,8 +472,8 @@ body {
     color: #fff;
   }
   
-  #hero .intro-info .btn-get-started:hover, #hero .intro-info .btn-services:hover {
-    background: #007C2F;
+  .hero .intro-info .btn-get-started:hover, .hero .intro-info .btn-services:hover {
+    background: #1ba60e;
   }
   
   /*--------------------------------------------------------------
@@ -498,7 +499,7 @@ body {
     margin: auto;
     font-size: 15px;
     padding-bottom: 60px;
-    color: #007C2F;
+    color: #1ba60e;
     width: 50%;
   }
   
@@ -568,29 +569,29 @@ body {
     transform: scale(1.03);
   }
   
-  #about .about-img::before {
-    position: absolute;
-    left: -11px;
-    top: -10px;
-    width: 90%;
-    height: 92%;
-    z-index: -1;
-    content: '';
-    background-color: $primary;
-    transition: .5s;
-  }
+  // #about .about-img::before {
+  //   position: absolute;
+  //   left: -11px;
+  //   top: -10px;
+  //   width: 90%;
+  //   height: 92%;
+  //   z-index: -1;
+  //   content: '';
+  //   background-color: $primary;
+  //   transition: .5s;
+  // }
   
-  #about .about-img::after {
-    position: absolute;
-    right: -11px;
-    bottom: -10px;
-    width: 90%;
-    height: 92%;
-    z-index: -1;
-    content: '';
-    background-color: $primary;
-    transition: .5s;
-  }
+  // #about .about-img::after {
+  //   position: absolute;
+  //   right: -11px;
+  //   bottom: -10px;
+  //   width: 90%;
+  //   height: 92%;
+  //   z-index: -1;
+  //   content: '';
+  //   background-color: $primary;
+  //   transition: .5s;
+  // }
   
   /* Services Section
   --------------------------------*/
@@ -656,6 +657,10 @@ body {
     padding: 60px 0;
   }
   
+  #why-us .why-us-content {
+    padding-top: 50px;
+  }
+
   @media (max-width: 991px) {
     #why-us .why-us-content {
       padding-top: 30px;
@@ -686,67 +691,39 @@ body {
     color: #757575;
   }
   
-  #why-us .counters {
-    padding-top: 40px;
+  #why-us .why-us-img {
+    position: relative;
+    margin: 30px 30px 30px 30px;
   }
   
-  #why-us .counters span {
-    font-family: "Exo 2", sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    display: block;
-    color: #333;
+  #why-us .why-us-img img {
+    width: 100%;
+    border: 8px solid #fff;
+    transition: .5s;
   }
   
-  #why-us .counters p {
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-family: "Exo 2", sans-serif;
-    font-size: 14px;
-    color: #333;
+  #why-us .why-us-img img:hover {
+    width: 100%;
+    transform: scale(1.03);
   }
 
   /* Chiffres
   --------------------------------*/
-  #chiffres {
+  .chiffres {
     padding: 60px 0;
   }
   
   @media (max-width: 991px) {
-    #chiffres .chiffres-content {
+    .chiffres .chiffres-content {
       padding-top: 30px;
     }
   }
-  
-  #chiffres .chiffres-content .features {
-    margin: 0 0 15px 0;
-    padding: 0;
-  }
-  
-  #chiffres .chiffres-content .features i {
-    font-size: 36px;
-    float: left;
-  }
-  
-  #chiffres .chiffres-content .features h4 {
-    font-size: 24px;
-    font-weight: 600;
-    margin-left: 56px;
-    color: #333;
-    margin-bottom: 5px;
-  }
-  
-  #chiffres .chiffres-content .features p {
-    font-size: 16px;
-    margin-left: 56px;
-    color: #757575;
-  }
-  
-  #chiffres .counters {
+
+  .chiffres .counters {
     padding-top: 40px;
   }
   
-  #chiffres .counters span {
+  .chiffres .counters span {
     font-family: "Exo 2", sans-serif;
     font-weight: bold;
     font-size: 48px;
@@ -754,7 +731,7 @@ body {
     color: #333;
   }
   
-  #chiffres .counters p {
+  .chiffres .counters p {
     padding: 0;
     margin: 0 0 20px 0;
     font-family: "Exo 2", sans-serif;
@@ -765,7 +742,7 @@ body {
   /* Call To Action Section
   --------------------------------*/
   #call-to-action {
-    background: #007C2F;
+    background: #1ba60e;
     background-size: cover;
     padding: 40px 0;
   }
@@ -776,7 +753,7 @@ body {
     font-weight: 700;
   }
   
-  #call-to-action .cta-text {
+  #call-to-action p {
     color: #fff;
   }
   
@@ -926,7 +903,7 @@ body {
   }
   
   #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover, #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-    background: #007C2F;
+    background: #1ba60e;
   }
   
   #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i, #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
@@ -934,7 +911,7 @@ body {
   }
   
   #portfolio .portfolio-item .portfolio-wrap:hover {
-    background: #007C2F;
+    background: #1ba60e;
   }
   
   #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
@@ -1238,26 +1215,26 @@ body {
   }
   
   #pricing .card .btn:hover {
-    background: #007C2F;
+    background: #1ba60e;
   }
   
   /* Frequently Asked Questions Section
   --------------------------------*/
-  #faq {
+  .accordion {
     padding: 60px 0;
     overflow: hidden;
   }
   
-  #faq #faq-list {
+  .accordion .accordion-list {
     padding: 0;
     list-style: none;
   }
   
-  #faq #faq-list li {
+  .accordion .accordion-list li {
     border-bottom: 1px solid #ebebeb;
   }
   
-  #faq #faq-list a {
+  .accordion .accordion-list a {
     padding: 22px 0;
     display: block;
     position: relative;
@@ -1268,35 +1245,35 @@ body {
     padding-right: 20px;
   }
   
-  #faq #faq-list i {
+  .accordion .accordion-list i {
     font-size: 24px;
     position: absolute;
     right: 0;
     top: 20px;
   }
   
-  #faq #faq-list p {
+  .accordion .accordion-list p {
     margin-bottom: 20px;
   }
   
   @media (max-width: 768px) {
-    #faq #faq-list a {
+    .accordion .accordion-list a {
       font-size: 18px;
     }
-    #faq #faq-list i {
+    .accordion .accordion-list i {
       top: 13px;
     }
   }
   
-  #faq #faq-list a.collapse {
+  .accordion .accordion-list a.collapse {
     color: $primary;
   }
   
-  #faq #faq-list a.collapsed {
+  .accordion .accordion-list a.collapsed {
     color: #333;
   }
   
-  #faq #faq-list a.collapsed i::before {
+  .accordion .accordion-list a.collapsed i::before {
     content: "\f2c7" !important;
   }
   
@@ -1483,7 +1460,7 @@ body {
   }
   
   #footer .footer-top .social-links a:hover {
-    background: #007C2F;
+    background: #1ba60e;
     color: #fff;
   }
   
@@ -1559,7 +1536,7 @@ body {
   }
   
   #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-    background: #007C2F;
+    background: #1ba60e;
   }
   
   #footer .php-email-form .validate {
@@ -1641,7 +1618,7 @@ body {
   }
   
   #footer .php-email-form button[type="submit"]:hover {
-    background: #007C2F;
+    background: #1ba60e;
     cursor: pointer;
   }
   
@@ -1682,7 +1659,7 @@ body {
   }
   
   #footer .credits a:hover {
-    color: #007C2F;
+    color: #1ba60e;
   }
   
   

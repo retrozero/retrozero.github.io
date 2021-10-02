@@ -1,6 +1,10 @@
 # - id: home
 #   path: /
-- id: article
+- id: what
+  path: \#about
+- id: solution
   path: /article
-- id: linkout
-  url: https://google.com
+- id: faq
+  path: /article
+- id: contact
+  path: /article
