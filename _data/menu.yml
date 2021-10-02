@@ -3,8 +3,8 @@
 - id: what
   path: \#about
 - id: solution
-  path: /article
+  path: \#why-us
 - id: faq
-  path: /article
+  path: \#questions-frequentes
 - id: contact
-  path: /article
+  path: \#call-to-action

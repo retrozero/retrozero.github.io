@@ -7,7 +7,7 @@ lang: fr
 image: /files/img/about-img.jpg
 ---
 
-Le retrofit automobile, c'est la transformation d'un véhicule essence ou diesel en véhicule électrique. 
+Le retrofit automobile, c'est la transformation d'un véhicule essence ou diesel en véhicule électrique, lui donnant ainsi une seconde vie non-polluante. 
 
 Concrètement, cela consiste à retirer le moteur thermique, le remplacer par un moteur électrique et d'installer des batteries qui vont l'alimenter.
 

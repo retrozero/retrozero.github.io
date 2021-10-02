@@ -4,7 +4,7 @@ title:  "Notre solution unique"
 date:   2021-09-03 13:49:35 +0200
 categories: home
 lang: fr
-image: /files/img/why-us.jpg
+image: /files/img/retrozerofit.png
 ---
 
 RetroZero a pour ambition de réutiliser des composants de véhicules électriques, pour convertir des véhicules aux moteurs essences et diesels en véhicules 100% électrique.
