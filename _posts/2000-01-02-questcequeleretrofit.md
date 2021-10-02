@@ -4,7 +4,7 @@ title:  "Qu'est-ce que le retrofit ?"
 date:   2021-09-03 13:49:35 +0200
 categories: home
 lang: fr
-image: /files/img/about-img.jpg
+image: /files/img/classic-car.jpg
 ---
 
 Le retrofit automobile, c'est la transformation d'un véhicule essence ou diesel en véhicule électrique, lui donnant ainsi une seconde vie non-polluante. 

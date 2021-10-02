@@ -4,7 +4,7 @@ title:  "Pourquoi faire appel à nous"
 date:   2021-09-03 13:49:35 +0200
 categories: home
 lang: fr
-image: /files/img/why-us.jpg
+image: /files/img/golf-mont-blanc.jpg
 ---
 
 Vous ferez appel à nous...
