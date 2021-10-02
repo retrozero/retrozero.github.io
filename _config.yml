@@ -27,6 +27,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: retrozero
 github_username:  retrozero
 
+google_tag_manager: GTM-WHHR8R9
+
 # tell jekyll where to find our styles
 sass:
   sass_dir: css
